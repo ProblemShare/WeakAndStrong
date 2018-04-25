@@ -1,7 +1,8 @@
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface SecondViewController : UIViewController
+@interface InfoModal : NSObject
+
 
 @property (weak,nonatomic) NSString *button;
 @property (weak,nonatomic) NSString *textfield;

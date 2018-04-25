@@ -1,13 +1,8 @@
-//
-//  ViewController.m
-//  DemoProject
-//
-//  Created by Abhishek on 21/04/18.
-//  Copyright © 2018 Abhishek. All rights reserved.
-//
+
 
 #import "ViewController.h"
 #import "SecondViewController.h"
+#import "InfoModal.h"
 
 @interface ViewController ()
 
@@ -50,6 +45,19 @@
 
     //Not change the value even changed the value like below
     //[self.testingButton setTitle:@"" forState:UIControlStateNormal];
+    
+    InfoModal *modalObj =  [[InfoModal alloc]init];
+    modalObj.button = [self.testingButton titleForState:UIControlStateNormal];
+    modalObj.textview = self.testingTextView.text;
+    modalObj.textfield = self.testingTextField.text;
+    modalObj.label = self.testingLabel.text;
+
+    NSLog(@"#######################################################");
+    NSLog(@"BUTTON = %@",modalObj.button);
+    NSLog(@"TEXT VIEW = %@",modalObj.textview);
+    NSLog(@"TEXT FIELD = %@",modalObj.textfield);
+    NSLog(@"LABEL = %@",modalObj.label);
+    NSLog(@"#######################################################");
 
     [self.navigationController pushViewController:secondView animated:YES];
 }

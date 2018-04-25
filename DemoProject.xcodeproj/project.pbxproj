@@ -17,6 +17,7 @@
 		46E83CD3208B47D500547DBE /* DemoProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E83CD2208B47D500547DBE /* DemoProjectTests.m */; };
 		46E83CDE208B47D500547DBE /* DemoProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E83CDD208B47D500547DBE /* DemoProjectUITests.m */; };
 		46E83CED208B499C00547DBE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E83CEC208B499C00547DBE /* SecondViewController.m */; };
+		AD7BE9C9209085C400369614 /* InfoModal.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7BE9C8209085C400369614 /* InfoModal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		46E83CDF208B47D500547DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46E83CEB208B499C00547DBE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		46E83CEC208B499C00547DBE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AD7BE9C7209085C400369614 /* InfoModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoModal.h; sourceTree = "<group>"; };
+		AD7BE9C8209085C400369614 /* InfoModal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoModal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				46E83CB6208B47D100547DBE /* AppDelegate.h */,
+				AD7BE9C7209085C400369614 /* InfoModal.h */,
+				AD7BE9C8209085C400369614 /* InfoModal.m */,
 				46E83CB7208B47D100547DBE /* AppDelegate.m */,
 				46E83CB9208B47D100547DBE /* ViewController.h */,
 				46E83CBA208B47D100547DBE /* ViewController.m */,
@@ -275,6 +280,7 @@
 				46E83CC1208B47D100547DBE /* DemoProject.xcdatamodeld in Sources */,
 				46E83CC9208B47D400547DBE /* main.m in Sources */,
 				46E83CB8208B47D100547DBE /* AppDelegate.m in Sources */,
+				AD7BE9C9209085C400369614 /* InfoModal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
